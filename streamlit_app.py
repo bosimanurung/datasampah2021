@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 
 #baca data
 #datasampah = pd.read_excel("D:/Streamlit_bstry/datasumbersampah.xlsx")
-datasampah = pd.read_excel("datasumbersampah.xlsx")
+datasampah = pd.read_excel("https://github.com/bosimanurung/datasampah2021/blob/main/datasumbersampah.xlsx")
 #print(datasampah)
 
 
