@@ -3,9 +3,16 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 
+def load_data():
+    # Load your dataset here, replace 'your_dataset.csv' with your actual dataset file
+    data = pd.read_excel('datasumbersampah.xlsx')
+    return data
+
+# Load the dataset
+datasampah = load_data()
+
 #baca data
 #datasampah = pd.read_excel("D:/Streamlit_bstry/datasumbersampah.xlsx")
-datasampah = pd.read_excel("https://github.com/bosimanurung/datasampah2021/blob/main/datasumbersampah.xlsx")
 #print(datasampah)
 
 
