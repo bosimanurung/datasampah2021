@@ -47,7 +47,7 @@ datasampahprovinsi = datasampah.loc[datasampah['provinsi'] == provinsiygdipilih]
 row2_left, row2_middle, row2_right = st.columns((.1, 3, .1))
 with row2_middle:
     st.subheader('Data yang digunakan')     
-    st.dataframe(datasampahprovinsi)
+    st.dataframe(datasampahprovinsi, hide_index=True)
     
 sektorsumbersampah = ['rumahtangga', 'perkantoran', 'pasar', 'perniagaan', 'fasilitaspublik', 'kawasan', 'lainnya']
 #datasampahrumahtangga = datasampahprovinsi['rumahtangga'].sum()
